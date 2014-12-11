@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container-fluid {
   
   
@@ -133,3 +134,22 @@ page-header1 {
 }
 
 
+=======
+body {
+  background-color: f2f2f2;
+}
+
+.page-header{
+  
+  
+  background: none repeat scroll 0% 0% #C8102E;
+  position: relative;
+  height: 120px; 
+  
+}
+.page-header {
+  font-family: ;: Tahoma, Geneva, sans-serif;
+  font-style: white;
+ 
+}
+>>>>>>> b91dc6d7dd523e9edf50d36ef33b34a4e1ce6cfa

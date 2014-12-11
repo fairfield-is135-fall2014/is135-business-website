@@ -1,15 +1,12 @@
 
+
 .container-fluid {  
   background-color:#f3f3f3;
 }
 
 
 
-/* NAV BAR STYLING ------------------------------------------------*/
-
-
-
-
+/* NAV BAR STYLING -----------===============================================================-------------------------------------*/
 
 li  {
   width: 100%;
@@ -122,10 +119,9 @@ li a {
   position: relative;
   margin: 0 auto;
   
-  #myCarousel {
-    margin-top: 1px;
-    
-  }
+.myCarousel .carousel-inner h1 {
+  font-size: 36px;
+}
   
 
   /* End Carousel Styling */  
@@ -156,7 +152,7 @@ h1#page-title {
   padding: 0 auto;
  	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
  	color: white;
- 	font-size: 20;
+ 	font-size: 30px;
  	padding: 8px;
  	font-weight: bold;
  	letter-spacing: 0.9px;
@@ -273,4 +269,168 @@ btn1 li :hover {
   * html .clearfix{ height: 1%;}
   .clearfix {display: block}
 }
+
+
+body {
+  background-color: #F1F0EC;
+}
+.page-header {
+  background: none repeat scroll 0% 0% #C8102E;
+  font-family: 'palatino linotype', palatino, serif;
+  
+}
+
+
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,a,abbr,acronym,em,img,ol,ul,li {border: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;margin: 0;padding: 0;}
+
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: #e5452c;
+}
+
+.page-header, h1, h2 {
+  color: #E0D5D5;
+  
+}
+.page-header h1 {
+  color: #E0D5D5;
+  font-size: 30px;
+  letter-spacing: 4.4pt;
+  word-spacing: -8.6pt;
+  line-height: 1.6;
+  
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  /*---
+  .show-grid [class*="span"]:hover {
+    background-color: #ddd;
+  }
+  @media (min-width: 1200px)
+    .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+  }
+  .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+  }
+  .show-grid [class*="span"] {
+    background-color: #eee;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 40px;
+    line-height: 40px;
+  }
+  @media (min-width: 1200px)
+    .row-fluid .span6 {
+    width: 48.717948717948715%;
+  }
+  @media (min-width: 1200px)
+    .row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.564102564102564%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .row-fluid .span8 {
+    width: 48.93617021276595%;
+  }
+  .row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.127659574468085%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  @media (min-width: 1200px)
+    .span6 {
+    width: 570px;
+  }
+  @media (min-width: 1200px)
+    [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+  }
+  .span8 {
+    width: 460px;
+  }
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+  }
+  user agent stylesheetdiv {
+    display: block;
+  }
+  .show-grid {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 1200px)
+    .row-fluid {
+    width: 100%;
+  }
+  .row-fluid {
+    width: 100%;
+  }
+  user agent stylesheetdiv {
+    display: block;
+  }
+  Pseudo ::before element
+    @media (min-width: 1200px)
+      .row-fluid:before, .row-fluid:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+    .row-fluid:before, .row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  Pseudo ::after element
+    @media (min-width: 1200px)
+      .row-fluid:after {
+      clear: both;
+    }
+    @media (min-width: 1200px)
+      .row-fluid:before, .row-fluid:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+    .row-fluid:after {
+    clear: both;
+  }
+  .row-fluid:before, .row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  } --*/
 
