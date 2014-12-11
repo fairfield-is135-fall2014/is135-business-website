@@ -119,11 +119,11 @@ li a {
   position: relative;
   margin: 0 auto;
   
-.myCarousel .carousel-inner h1 {
-  font-size: 36px;
-}
+  .myCarousel .carousel-inner h1 {
+    font-size: 36px;
+  }
   
-
+  
   /* End Carousel Styling */  
 }
 .top {
@@ -318,119 +318,134 @@ a {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+#alert-bar-schedule {
+  height: 5%;
+  width: 100%;
+  background-color: yellow;
+  font-style: red;
+  border: 1px solid red;
+  
+}
+#calender {
+  border: 1px solid red;
+}
+#content {
+  border: 1px solid red;
+}
+/*---
+.show-grid [class*="span"]:hover {
+background-color: #ddd;
   }
-  /*---
-  .show-grid [class*="span"]:hover {
-    background-color: #ddd;
+@media (min-width: 1200px)
+.row-fluid [class*="span"]:first-child {
+margin-left: 0;
   }
-  @media (min-width: 1200px)
-    .row-fluid [class*="span"]:first-child {
-    margin-left: 0;
+.row-fluid [class*="span"]:first-child {
+margin-left: 0;
   }
-  .row-fluid [class*="span"]:first-child {
-    margin-left: 0;
+.show-grid [class*="span"] {
+background-color: #eee;
+text-align: center;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+min-height: 40px;
+line-height: 40px;
   }
-  .show-grid [class*="span"] {
-    background-color: #eee;
-    text-align: center;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    min-height: 40px;
-    line-height: 40px;
+@media (min-width: 1200px)
+.row-fluid .span6 {
+width: 48.717948717948715%;
   }
-  @media (min-width: 1200px)
-    .row-fluid .span6 {
-    width: 48.717948717948715%;
+@media (min-width: 1200px)
+.row-fluid [class*="span"] {
+display: block;
+float: left;
+width: 100%;
+min-height: 30px;
+margin-left: 2.564102564102564%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
   }
-  @media (min-width: 1200px)
-    .row-fluid [class*="span"] {
-    display: block;
-    float: left;
-    width: 100%;
-    min-height: 30px;
-    margin-left: 2.564102564102564%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.row-fluid .span8 {
+width: 48.93617021276595%;
   }
-  .row-fluid .span8 {
-    width: 48.93617021276595%;
+.row-fluid [class*="span"] {
+display: block;
+float: left;
+width: 100%;
+min-height: 30px;
+margin-left: 2.127659574468085%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
   }
-  .row-fluid [class*="span"] {
-    display: block;
-    float: left;
-    width: 100%;
-    min-height: 30px;
-    margin-left: 2.127659574468085%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+@media (min-width: 1200px)
+.span6 {
+width: 570px;
   }
-  @media (min-width: 1200px)
-    .span6 {
-    width: 570px;
+@media (min-width: 1200px)
+[class*="span"] {
+float: left;
+min-height: 1px;
+margin-left: 30px;
   }
-  @media (min-width: 1200px)
-    [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 30px;
+.span8 {
+width: 460px;
   }
-  .span8 {
-    width: 460px;
+[class*="span"] {
+float: left;
+min-height: 1px;
+margin-left: 20px;
   }
-  [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 20px;
+user agent stylesheetdiv {
+display: block;
   }
-  user agent stylesheetdiv {
-    display: block;
+.show-grid {
+margin-top: 10px;
+margin-bottom: 20px;
   }
-  .show-grid {
-    margin-top: 10px;
-    margin-bottom: 20px;
+@media (min-width: 1200px)
+.row-fluid {
+width: 100%;
   }
-  @media (min-width: 1200px)
-    .row-fluid {
-    width: 100%;
+.row-fluid {
+width: 100%;
   }
-  .row-fluid {
-    width: 100%;
+user agent stylesheetdiv {
+display: block;
   }
-  user agent stylesheetdiv {
-    display: block;
-  }
-  Pseudo ::before element
-    @media (min-width: 1200px)
-      .row-fluid:before, .row-fluid:after {
-      display: table;
-      line-height: 0;
-      content: "";
+Pseudo ::before element
+@media (min-width: 1200px)
+.row-fluid:before, .row-fluid:after {
+display: table;
+line-height: 0;
+content: "";
     }
-    .row-fluid:before, .row-fluid:after {
-    display: table;
-    line-height: 0;
-    content: "";
+.row-fluid:before, .row-fluid:after {
+display: table;
+line-height: 0;
+content: "";
   }
-  Pseudo ::after element
-    @media (min-width: 1200px)
-      .row-fluid:after {
-      clear: both;
+Pseudo ::after element
+@media (min-width: 1200px)
+.row-fluid:after {
+clear: both;
     }
-    @media (min-width: 1200px)
-      .row-fluid:before, .row-fluid:after {
-      display: table;
-      line-height: 0;
-      content: "";
+@media (min-width: 1200px)
+.row-fluid:before, .row-fluid:after {
+display: table;
+line-height: 0;
+content: "";
     }
-    .row-fluid:after {
-    clear: both;
+.row-fluid:after {
+clear: both;
   }
-  .row-fluid:before, .row-fluid:after {
-    display: table;
-    line-height: 0;
-    content: "";
+.row-fluid:before, .row-fluid:after {
+display: table;
+line-height: 0;
+content: "";
   } --*/
 
